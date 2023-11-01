@@ -24,6 +24,8 @@ namespace mf_dev_backend_2023.Models
 
         public int AnoModelo { get; set; }
 
+        public ICollection<Consumo> Consumos { get; set; }
+
 
     }
 }
